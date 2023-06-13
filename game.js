@@ -34,7 +34,7 @@ function checkAnswer(currentLevel){
         setTimeout(function(){
             $("body").removeClass("game-over");
         }, 200);
-        $("h1").text("Game-over. Press any key to rest");
+        $("h1").text("Game-over. Press any key to continue");
         started = true;
         level = 0;
         userClickedPattern = [];
